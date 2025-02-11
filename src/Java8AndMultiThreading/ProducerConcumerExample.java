@@ -35,9 +35,9 @@ class Producer implements Runnable {
                 SimpleTestLog log = new SimpleTestLog("Test Log :" + i);
                 queue.put(log);
                 System.out.println("Produced: " + log);
-                Thread.sleep(100);  // Simulate some work
+                Thread.sleep(100);
             }
-            queue.put(new SimpleTestLog("empty Test log"));  // Signal for end of production
+            queue.put(new SimpleTestLog("empty Test log"));
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
         }
@@ -56,10 +56,10 @@ class Consumer implements Runnable {
         try {
             while (true) {
                 SimpleTestLog log = queue.take();
-                if (log.message.equals("empty Test log")) break;  // End signal received
+                if (log.message.equals("empty Test log")) break;
 
                 System.out.println("Consumed: " + log);
-                Thread.sleep(200);  // Simulate some processing
+                Thread.sleep(200);
             }
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
