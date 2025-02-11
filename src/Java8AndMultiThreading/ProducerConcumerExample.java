@@ -1,9 +1,9 @@
 package Java8AndMultiThreading;
-/*Remark: BlockingQueue helps us to maintain synchronization automatically as  designed to handle thread safe operation
+/* Remark: BlockingQueue helps us to maintain synchronization automatically as  designed to handle thread safe operation
 // BlockingQueue is internally used in producer consumer problem
-//  internal working of blockingQueue: blockingQueue excepts notNull arguments
-//Thread 1 put the log and thread 2 consume the log
-//LinkedBlockingQueue is optionally bounded queue if size is given it is bounded else it is unbounded
+// internal working of blockingQueue: blockingQueue excepts notNull arguments
+// Thread 1 put the log and thread 2 consume the log
+// LinkedBlockingQueue is optionally bounded queue if size is given it is bounded else it is unbounded
 */
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
