@@ -1,0 +1,5 @@
+INFO - Test case 1 passed
+INFO - Test case 2 passed
+ERROR - Test case 3 failed due to timeout
+INFO - Test case 4 passed
+ERROR - Test case 5 failed due to null pointer exception

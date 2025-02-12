@@ -1,0 +1,2 @@
+ERROR - Failed to bind to port
+ERROR - Database query timeout

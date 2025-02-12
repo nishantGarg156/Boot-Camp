@@ -1,0 +1,6 @@
+INFO - Server started
+ERROR - Failed to bind to port
+INFO - User authentication successful
+INFO - Database connection established
+ERROR - Database query timeout
+INFO - Server shutdown
